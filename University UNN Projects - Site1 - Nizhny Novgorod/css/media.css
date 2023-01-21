@@ -1,0 +1,52 @@
+@media (max-width: 880px)
+{
+    
+    
+    header{
+        display: none;
+    }
+    .line {
+        flex-direction: column-reverse;
+        border: 3px white solid;
+        border-radius: 10px;
+    }
+    .bg-line{
+        flex-direction: column-reverse;
+        border: 3px white solid;
+        border-radius: 10px;
+    }
+    .head{
+        font-family: 'BG Name';
+        text-align: center;
+        font-size: 32px;
+        letter-spacing: 0.5rem;
+        color: #ff4800;
+    }
+    line ~.line{
+        flex-direction: column;
+    }
+    footer{
+        flex-direction: column;
+    }
+    .icons{
+        width: 100vw;
+        margin-bottom: 10px;
+    }
+    .logo{
+        background: url("../img/gepard.jpg");
+        background-size: cover;
+        border-radius: 10px;
+        height: 45px;
+        width: auto;
+        aspect-ratio: 2/1;
+    }
+    .text1,.text2{
+        margin-top:10px
+    }
+    .head{
+        letter-spacing: 1rem;
+    }
+    .footer-nav-item{
+        font-size: calc(0.5em + 1vw);
+    }
+}
