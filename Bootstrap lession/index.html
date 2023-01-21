@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/1.css">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+    <title>UNN</title>
+</head>
+
+<body>
+<!--ФОРМА-->
+<div class="container">
+<div class="text">
+    <hr>
+    <b>Задание 1:</b> Форма
+    <br>
+    <b>Форма 1</b>
+    <br><br>
+</div>
+    <form>
+      <div class="row align-items-center">
+        <div class="col-auto g-1">Имя</div>
+        <div class="col-4"><input type="text" class="form-control"></div>
+        <div class="col-auto g-1">Фамилия</div>
+        <div class="col-4"><input type="text" class="form-control"></div>
+        <div class="col-2"><input type="button" class="btn btn-success" value="Отправить"></div>
+      </div>
+      </form>
+     </div>
+
+     <hr>
+     <div class="container">
+     <div class="text">
+        <b>Форма 2</b>
+        <br><br>
+    </div>
+  
+    <form>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">Пример строки с подсказкой</div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Пароль</label>
+          <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Согласен с условиями конфиденциальности</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Отправить</button>
+      </form>
+    </div>
+
+    <!--ЗНАЧКИ-->
+
+    <hr>
+    <div class="container">
+    <div class="text">
+        <b>Задание 2:</b> Значки
+        <br><br>
+        
+            <button type="button" class="btn btn-light">Стандартный</button>
+            <button type="button" class="btn btn-primary">Основная</button>
+            <button type="button" class="btn btn-success">Подтвердить</button>
+            <button type="button" class="btn btn-info">Уведомление</button>
+            <button type="button" class="btn btn-warning">Внимание</button>
+            <button type="button" class="btn btn-danger">Отмена</button>
+
+            <button type="button" class="btn btn-link">Ссылка</button>
+        </div>
+
+
+        <!--ТАБЛИЦЫ-->
+
+        <hr>
+
+        <div class="container">
+            <b>Задание 3:</b> Таблица
+            <br><br>
+    <b>Таблица 1</b>
+    <br>
+    
+    <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Имя</th>
+                    <th scope="col">Фамилия</th>
+                    <th scope="col">Почта</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Иван</td>
+                    <td>Петров</td>
+                    <td>ivan@unn.ru</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Анна</td>
+                    <td>Иванов</td>
+                    <td>anna@unn.ru</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Артем</td>
+                    <td>Петров</td>
+                    <td>artem@unn.ru</td>
+                  </tr>
+                </tbody>
+              </table>
+
+<br>
+<b>Таблица 2</b>
+<br>
+<table class="table table-hover">
+            <thead>
+              <tr>
+                <th scope="col"><th scope="col">#</th>
+                <th scope="col">Имя</th>
+                <th scope="col">Фамилия</th>
+            
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Иван</td>
+                <td>Петров</td>
+                <td>ivan@unn.ru</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Анна</td>
+                <td>Иванов</td>
+                <td>anna@unn.ru</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Артем</td>
+                <td>Петров</td>
+                <td>artem@unn.ru</td>
+              </tr>
+            </tbody>
+          </table>
+
+    <br>
+<b>Таблица 3</b>
+<br>
+        <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <td class="table-light">Имя</td>
+                <td class="table-success">Фамилия</th>
+                <td class="table-primary">Почта</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td class="table-warning">Иван</td>
+                <td>Петров</td>
+                <td class="table-danger">ivan@unn.ru</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Анна</td>
+                <td>Иванов</td>
+                <td>anna@unn.ru</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Артем</td>
+                <td class="table-light">Петров</td>
+                <td>artem@unn.ru</td>
+              </tr>
+            </tbody>
+          </table>
+    </div>
+</body>
+        </div>
+</body>
+</html>

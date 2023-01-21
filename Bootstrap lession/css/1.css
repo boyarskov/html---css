@@ -1,0 +1,188 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Regular.ttf");
+}
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 15vh;
+}
+
+.logo {
+  background: url("../img/logo-ru.svg") no-repeat;
+  background-size: auto;
+  height: auto;
+  width: 190px;
+}
+
+.top {
+  width: -webkit-calc(100% - 200px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.top div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #101a35;
+  flex: 1 1 20%;
+  height: 15vh;
+  font-size: 1.5rem;
+  font-family: "Roboto";
+  color: rgb(255, 255, 255);
+}
+
+.menu-item:hover {
+  box-shadow: 10px 4px 5px burlywood;
+  cursor: pointer;
+}
+
+.second-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("../img/gazbag2.jpg") no-repeat;
+  height: auto;
+  aspect-ratio: 6/2;
+  background-size: cover;
+  font-family: "Roboto";
+  font-size: 5rem;
+  margin-bottom: 50px;
+}
+
+.repeat-lines1 {
+  display: flex;
+  height: auto;
+  margin: 0 30px;
+}
+.repeat-lines1 .text, .repeat-lines1 .img {
+  flex: 1 1 50%;
+}
+.repeat-lines1 .text {
+  margin: 0 30px;
+  font-family: "Roboto";
+  font-size: 2rem;
+}
+.repeat-lines1 .img {
+  aspect-ratio: 2/1.5;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.repeat-lines1 img {
+  width: 100%;
+  height: auto;
+}
+
+.repeat-lines2 {
+  display: flex;
+  height: auto;
+  margin: 0 30px;
+  flex-direction: row-reverse;
+}
+.repeat-lines2 .text, .repeat-lines2 .img {
+  flex: 1 1 50%;
+}
+.repeat-lines2 .text {
+  margin: 0 30px;
+  font-family: "Roboto";
+  font-size: 2rem;
+}
+.repeat-lines2 .img {
+  aspect-ratio: 2/1.5;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.repeat-lines2 img {
+  width: 100%;
+  height: auto;
+}
+
+.repeat-lines3 {
+  display: flex;
+  height: auto;
+  margin: 0 30px;
+}
+.repeat-lines3 .text, .repeat-lines3 .img {
+  flex: 1 1 50%;
+}
+.repeat-lines3 .text {
+  margin: 0 30px;
+  font-family: "Roboto";
+  font-size: 2rem;
+}
+.repeat-lines3 .img {
+  aspect-ratio: 2/1.5;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.repeat-lines3 img {
+  width: 100%;
+  height: auto;
+}
+
+.repeat-lines4 {
+  display: flex;
+  height: auto;
+  margin: 0 30px;
+  flex-direction: row-reverse;
+}
+.repeat-lines4 .text, .repeat-lines4 .img {
+  flex: 1 1 50%;
+}
+.repeat-lines4 .text {
+  margin: 0 30px;
+  font-family: "Roboto";
+  font-size: 2rem;
+}
+.repeat-lines4 .img {
+  aspect-ratio: 2/1.5;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.repeat-lines4 img {
+  width: 100%;
+  height: auto;
+}
+
+.circle-line {
+  display: flex;
+  justify-content: space-around;
+}
+.circle-line .circle1 {
+  aspect-ratio: 1/1;
+  flex: 0 0 15vw;
+  background: url("../img/volga/volga1.png") no-repeat;
+  background-size: cover;
+  border-radius: 150px;
+  border: 3px solid rgb(235, 20, 181);
+  box-shadow: 2px 2px 3px #66FFFF;
+}
+.circle-line .circle2 {
+  aspect-ratio: 1/1;
+  flex: 0 0 15vw;
+  background: url("../img/volga/volga2.png") no-repeat;
+  background-size: cover;
+  border-radius: 150px;
+  border: 3px solid rgb(235, 20, 181);
+  box-shadow: 2px 2px 3px #66FFFF;
+}
+.circle-line .circle3 {
+  aspect-ratio: 1/1;
+  flex: 0 0 15vw;
+  background: url("../img/volga/volga3.png") no-repeat;
+  background-size: cover;
+  border-radius: 150px;
+  border: 3px solid rgb(235, 20, 181);
+  box-shadow: 2px 2px 3px #66FFFF;
+}
+.circle-line .circle4 {
+  aspect-ratio: 1/1;
+  flex: 0 0 15vw;
+  background: url("../img/volga/volga4.png") no-repeat;
+  background-size: cover;
+  border-radius: 150px;
+  border: 3px solid rgb(235, 20, 181);
+  box-shadow: 2px 2px 3px #66FFFF;
+}/*# sourceMappingURL=1.css.map */
