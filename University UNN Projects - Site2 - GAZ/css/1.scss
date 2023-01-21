@@ -1,0 +1,96 @@
+$list-img-circle:"volga1.png", "volga2.png", "volga3.png", "volga4.png";
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Regular.ttf");
+}
+$font: "Roboto";
+@mixin flexible() {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 15vh;
+}
+.logo{
+  background: url("../img/logo-ru.svg") no-repeat;
+  background-size: auto;
+  height: auto;
+  width: 190px;
+}
+.top{
+  width: unquote("-webkit-calc(100% - 200px)");
+  @include flexible ();
+  div{
+    @include flexible ();
+    background: #101a35;
+    flex: 1 1 20%;
+    height: 15vh;
+    font-size: 1.5rem;
+    font-family: $font;
+    color: rgb(255, 255, 255);
+  }
+}
+.menu-item:hover{
+  box-shadow: 10px 4px 5px burlywood;
+  cursor: pointer;
+}
+.second-row{
+  @include flexible();
+  background: url("../img/gazbag2.jpg") no-repeat;
+  height: auto;
+  aspect-ratio: 6/2;
+  background-size: cover;
+  font-family: $font;
+  font-size: 5rem;
+  margin-bottom: 50px;
+}
+
+@for $i from 1 to 5 {
+  .repeat-lines#{$i} {
+    display: flex;
+    height:auto;
+    margin:0 30px;
+    .text, .img{
+      flex:1 1 50%;
+    }
+    .text{
+      margin:0 30px;
+      font-family:$font;
+      font-size:2rem;
+    }
+    .img{
+      aspect-ratio: 2/1.5;
+      object-fit:contain;
+    }
+    img{
+      width: 100%;
+      height: auto;
+    }
+    @if $i % 2==0
+    {
+      flex-direction: row-reverse;
+    }
+  }
+}
+$j:1;
+.circle-line{
+  display: flex;
+  justify-content: space-around;
+  @each $i in $list-img-circle 
+  {
+    .circle#{$j}{
+      aspect-ratio: 1/1;
+      flex: 0 0 15vw;
+      background: url("../img/volga/" + $i) no-repeat;
+      background-size: cover;
+      border-radius: 150px;
+      border: 3px solid rgb(235, 20, 181);
+      box-shadow: 2px 2px 3px #66FFFF;
+      }
+    $j:$j+1;
+  }
+}
