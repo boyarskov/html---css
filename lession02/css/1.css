@@ -1,0 +1,39 @@
+body{
+    background: url("../img/bg.jpg") repeat-y 100% fixed;
+}
+.center{
+    text-align: center;
+}
+.decor{
+    text-decoration: rgb(237, 178, 100) overline;
+}
+.bold{
+    font-weight: bold;
+}
+.right{
+    text-align: right;
+}
+.db{
+    color: blueviolet
+}
+.lsg{
+    color: rgb(0, 255, 183)
+}
+.big{
+    font-size:4rem;
+}
+table{
+    bolder-top: green 20px inset;
+    bolder-bottom: darkorchid 10px inset;
+    bolder-right: cornflowerblue 5px dashed;
+    bolder-left: darkorange 5px dotted;
+}
+ul{
+    list-style-type: square;
+}
+ol{
+    list-style-type: lower-greek;
+}
+.size{
+    font-size: 2rem;
+}
